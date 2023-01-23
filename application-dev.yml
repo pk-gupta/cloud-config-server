@@ -1,5 +1,5 @@
 config:
-  message: Hello From Dev Config Server
+  message: Hello From Dev Spring Config Server
 eureka:
   client:
     registerWithEureka: true
