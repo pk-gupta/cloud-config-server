@@ -1,0 +1,10 @@
+config:
+  message: Hello From Dev movie-rating-service (Use Actuator to call /refresh endpoint, so updated data will come in spring client service)
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
