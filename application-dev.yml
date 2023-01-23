@@ -1,5 +1,5 @@
 config:
-  message: Hello From Dev Spring Config Server
+  message: Hello From Dev Spring Config Server (Use Actuator to call /refresh endpoint, so updated data will come in spring client service)
 eureka:
   client:
     registerWithEureka: true
